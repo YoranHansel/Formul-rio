@@ -60,6 +60,7 @@ export default function App() {
       <TextInput
         style ={styles.input}
         placeholder='Digite sua senha'
+        secureTextEntry
         value={senha}
         onChangeText={setSenha}
       />
