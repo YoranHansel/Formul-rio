@@ -42,6 +42,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      
+      <Text style ={styles.titulo}>Login</Text>
+      
       <TextInput 
         style ={styles.input}
         placeholder='Digite seu nome'
@@ -75,6 +78,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 
+  
+  titulo: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: 40,
+    margin: 20
+  },
+  
   botao: {
     backgroundColor: '#1E90FF',
     padding: 12,
